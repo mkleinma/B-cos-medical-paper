@@ -11,7 +11,7 @@ To set up the necessary environment for this thesis, follow these steps:
 2. Download this repository and open a terminal in the project folder for creating the corresponding environment
 3. Run the following commands in the .cmd line:
    conda env create -f environment.yml
-   conda activate thesis-medical
+   conda activate bcos-medical
 
 ------------------------
 
