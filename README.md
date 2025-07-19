@@ -21,6 +21,3 @@ To set up the necessary environment for this thesis, follow these steps:
    - Multi-Label Dataset: https://www.kaggle.com/competitions/vinbigdata-chest-xray-abnormalities-detection
 - many parts of the thesis require adjustments for the directories as they are absolute or relative paths to e.g. the images in the respective datasets or where the models should be saved to. Simply adjust these paths to your directories and the code runs accordingly.
 - LayerCAM and EPG files are showing the execution of primarily one model but is applicable on all models - to verify the results of other models simply change the directory to the model.
-
----------------------
-The author acknowledges support by the state of Baden-Württemberg through bwHPC.
