@@ -25,7 +25,7 @@ To set up the necessary environment for this thesis, follow these steps:
 # Structure of the Code Base
 - Each dataset has it's respective directory 'Pneumonia' and 'Multi-Label Dataset'
 - Both consist of corresponding folders: evaluation and training. Evaluation consists of all tools to derive quantitative and qualitative results while training consists the corresponding training scripts with the optimal hyperparameters to allow the reproduction of results. Preprocessing is also present in the training folder under   Multi-Classification\training\preprocessing_and_splits for the multi-label dataset
-- The main adjustment necessary for using this repository is changing the paths to
+- After the preprocessing process, it is only necessary to change the corresponding paths of:
   1) the datasets and their corresponding data files 
   2) the models to evaluate
 ------------------------
