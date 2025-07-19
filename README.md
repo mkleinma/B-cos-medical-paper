@@ -19,7 +19,7 @@ To set up the necessary environment for this thesis, follow these steps:
 - Parts of the code require data from the pneumonia and multi-label datasets that are available on kaggle:
    - Pneumonia Dataset: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/data
    - Multi-Label Dataset: https://www.kaggle.com/competitions/vinbigdata-chest-xray-abnormalities-detection
-- Ensure to run the preprocessing Multi-Classification\training\preprocessing_and_splits (adjust paths accordingly) to obtain the 224x224 png files for the multi-label dataset. For the pneumonia dataset, all necessary preprocessing is provided within the training folder.
+- Ensure to run the preprocessing Multi-Classification\training\preprocessing_and_splits (adjust paths accordingly) to obtain the 224x224 png files for the multi-label dataset. For the pneumonia dataset, all necessary preprocessing is provided within the training folder in the training splits and grouped_data.csv.
 ------------------------
 
 # Structure of the Code Base
