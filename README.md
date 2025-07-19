@@ -15,7 +15,21 @@ To set up the necessary environment for this thesis, follow these steps:
 
 ------------------------
 
-# Technical Details for using the Code Base
+# Datasets
+- Parts of the code require data from the pneumonia and multi-label datasets that are available on kaggle:
+   - Pneumonia Dataset: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/data
+   - Multi-Label Dataset: https://www.kaggle.com/competitions/vinbigdata-chest-xray-abnormalities-detection
+- Ensure to run the preprocessing Multi-Classification\training\preprocessing_and_splits (adjust paths accordingly) to obtain the 224x224 png files for the multi-label dataset. For the pneumonia dataset, all necessary preprocessing is provided within the training folder.
+------------------------
+
+# Structure of the Code Base
+- Each dataset has it's respective directory 'Pneumonia' and 'Multi-Label Dataset'
+- Both consist of corresponding folders: evaluation and training. Evaluation consists of all tools to derive quantitative and qualitative results while training consists the corresponding training scripts with the optimal hyperparameters to allow the reproduction of results. Preprocessing is also present in the training folder under   Multi-Classification\training\preprocessing_and_splits for the multi-label dataset
+- The main adjustment necessary for using this repository is changing the paths to
+  1) the datasets and their corresponding data files 
+  2) the models to evaluate
+------------------------
+# Datasets
 - Parts of the code require data from the pneumonia and multi-label datasets that are available on kaggle:
    - Pneumonia Dataset: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/data
    - Multi-Label Dataset: https://www.kaggle.com/competitions/vinbigdata-chest-xray-abnormalities-detection
