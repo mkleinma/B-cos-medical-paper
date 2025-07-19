@@ -1,6 +1,6 @@
-# Interpretable Deep Learning with B-cos Networks for Chest X-ray Disease Detection
+# Faithful, Interpretable Chest X-ray Diagnosis with Anti-Aliased B-cos Networks
 
-This is the GitHub for the corresponding master thesis surrounding B-cos networks.
+This is the GitHub for the corresponding master thesis surrounding B-cos networks.g
 It includes two subdirectories for the Pneumonia and Multi-Label Dataset that include all necessary information for reproduction in training scripts.
 
 -----
