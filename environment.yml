@@ -1,4 +1,4 @@
-name: thesis-medical
+name: bcos-medical
 channels:
   - defaults
   - https://repo.anaconda.com/pkgs/main
