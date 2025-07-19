@@ -1,4 +1,5 @@
 import torch
+from torch import Tensor
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score, roc_auc_score, accuracy_score
 import numpy as np
 import pandas as pd
@@ -6,6 +7,7 @@ import random
 import warnings
 from typing import Dict, Any
 from bcos.common import BcosUtilMixin
+import torch.nn.functional as F
 
 np.random.seed(0)
 random.seed(0)
